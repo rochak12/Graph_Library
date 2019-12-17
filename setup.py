@@ -6,7 +6,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="DM_Library",
-    version="0.0.1",
+    version="1.0.1",
     author="Rochak Kunwar",
     author_email="rochak.kunwar.rk@gmail.com",
     description="A small example package",
