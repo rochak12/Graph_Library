@@ -1,4 +1,4 @@
-from DM_Library import Graph
+from DM import Graph
 
 G1_graph = {1: [3, 6], 2: [6, 3], 3: [1, 2], 6: [1,2] }
 G1 = Graph(G1_graph)
@@ -54,3 +54,26 @@ print(gt.get_nodes())
 print(gt.get_links())
 print(gt.get_spanning_tree(), end="\n\n")
 
+
+
+
+
+#####################################################
+""""""""""""""""""""""""""""""""""""""""""""""""""
+from DM import Huffman
+# with open('listfile.txt', 'w') as filehandle:
+#     for listitem in (primes(0, 179424674)):
+#         filehandle.write('%s\n' % listitem)
+
+
+#It is for reading from file
+# places = []
+#
+# # open file and read the content in a list
+# with open('listfile.txt', 'r') as filehandle:
+#     for line in filehandle:
+#         # remove linebreak which is the last character of the string
+#         currentPlace = line[:-1]
+#
+#         # add item to the list
+#         places.append(currentPlace)
