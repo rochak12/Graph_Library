@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="DM_Library",
+    name="DM-Library",
     version="1.0.1",
     author="Rochak Kunwar",
     author_email="rochak.kunwar.rk@gmail.com",
