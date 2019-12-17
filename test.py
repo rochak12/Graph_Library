@@ -1,4 +1,4 @@
-from DMLibrary import Graph
+from DM_Library import Graph
 
 G1_graph = {1: [3, 6], 2: [6, 3], 3: [1, 2], 6: [1,2] }
 G1 = Graph(G1_graph)
@@ -61,7 +61,7 @@ print(gt.get_spanning_tree(), end="\n\n")
 #####################################################
 """"""""""""""""""""""""""""""""""""""""""""""""""
 
-from DMLibrary import Huffman
+from DM_Library import Huffman
 s1 = "knlnclnac"
 code = Huffman.encode_text(s1)
 print("\n\n", Huffman.decode_text(code))
